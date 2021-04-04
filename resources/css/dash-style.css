@@ -1,0 +1,36 @@
+
+
+/* ---------------card change -----------------  */
+.rep_button:hover{
+        transform:scale(1.05);
+      }
+
+
+/* ---------------Other Image Modal in view product -----------------  */
+
+.oimage_box{
+	position: relative;
+
+
+}
+.other_img{
+	width:100%;
+	height: auto;
+	margin: 1px;
+
+}
+.img_rem_btn{
+	position: absolute;
+  	top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #f00;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.img_rem_btn:hover {
+	font-size: 35px;
+}
